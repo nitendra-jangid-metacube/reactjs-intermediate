@@ -1,0 +1,11 @@
+.modalx {    
+    width: 435px;
+    margin: 40px auto;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-shadow: 0px 1px 5px 2px #eee;
+}
+
+table.mt-2.table.table-bordered.table-hover tbody tr.active {
+background-color:#acbad44d
+}
