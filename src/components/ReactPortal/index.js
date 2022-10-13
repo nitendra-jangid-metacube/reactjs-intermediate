@@ -28,6 +28,7 @@ export default function App() {
     <Header />
       <section>
         <div className="container" style={{position: 'relative'}}>
+            <h2 className="bg-info m-auto my-5 text-center text-dark w-50">Portal</h2>
             <div className="col-md-6 offset-3 text-center">
             <div>Parent container</div>
             <button className="btn btn-info" onClick={() => setIsOpen(!isOpen)}>

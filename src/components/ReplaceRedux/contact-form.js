@@ -22,12 +22,12 @@ export default function ContactForm() {
   return (
       <form className="mt-3" onSubmit={onSubmit}>
         <div className="form-group">
-          <label for="exampleInputName">Name</label>
+          <label htmlFor="exampleInputName">Name</label>
           <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name" {...name} required />
         </div>
 
         <div className="form-group">
-          <label for="exampleInputEmail1">Email address</label>
+          <label htmlFor="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" {...email} required />
         </div>
 

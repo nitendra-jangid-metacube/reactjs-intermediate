@@ -15,6 +15,7 @@ export default function Hooks() {
     <Header />
       <section>
         <div className="container">
+            <h2 className="bg-info m-auto my-5 text-center text-dark w-50">Hooks</h2>
             <div className="col-md-6 offset-3 text-center">
                 <div>
                     <p>You clicked {count} times</p>

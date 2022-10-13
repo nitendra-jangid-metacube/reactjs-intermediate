@@ -9,7 +9,7 @@ export default function ReplaceRedux() {
       <Header />
       <section>
         <div className="container">
-          <h1 className="text-center">React Hooks Context Demo</h1>
+          <h2 className="bg-info m-auto my-5 text-center text-dark w-50">React Hooks Context</h2>
           <hr />
           <div className="row">
             <div className="col-md-4">

@@ -12,6 +12,7 @@ const Shop = () => {
     <Header />
     <section>
         <div className="container">
+          <h2 className="bg-info m-auto my-5 text-center text-dark w-50">Redux</h2>
           <div className='row'>
             <div className="col-md-6 offset-3 text-center my-3">
               <h2>Deposit/Withdraw Money</h2>

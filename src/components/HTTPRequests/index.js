@@ -48,6 +48,7 @@ export default function HTTPRequests() {
         <Header />
         <section>
             <div className="container">
+              <h2 className="bg-info m-auto my-5 text-center text-dark w-50">HTTP Requests</h2>
               <div className='row'>
                 <div className="col-md-6 text-center">
                 {isLoaded && <div id="">

@@ -28,6 +28,7 @@ export default class ContextComponent extends React.Component {
         <Header />
         <section>
             <div className="container">
+                <h2 className="bg-info m-auto my-5 text-center text-dark w-50">Context</h2>
                 <div className="col-md-6 offset-3">
                   <ThemeContext.Provider value={this.state.theme}>
                     <ThemedButton onClick={this.toggleTheme}>

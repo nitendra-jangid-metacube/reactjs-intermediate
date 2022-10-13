@@ -19,6 +19,7 @@ const CodeSplitting = () => {
         {(showComponent)?<OtherComponents />:
             <section>
                 <div className="container">
+                    <h2 className="bg-info m-auto my-5 text-center text-dark w-50">Code Splitting</h2>
                     <div className="col-md-6 offset-3">
                         <button className='btn btn-secondary' onClick={() => setShowComponent(true)}>Click me to load another Component</button>
                     </div>

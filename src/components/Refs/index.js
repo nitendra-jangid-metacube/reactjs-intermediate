@@ -30,6 +30,7 @@ class Refs extends React.Component {
           <Header />
           <section>
             <div className="container">
+                <h2 className="bg-info m-auto my-5 text-center text-dark w-50">React Refs</h2>
                 <div className="col-md-6 offset-3">
                   <h5>Focus the text input using the Refs</h5>
                   <div className='input-group'>

@@ -13,6 +13,7 @@ export default function CustomHooks() {
     <Header />
       <section>
         <div className="container">
+            <h2 className="bg-info m-auto my-5 text-center text-dark w-50">Custom Hooks</h2>
             <div className="col-md-6 offset-3 text-center">
                 <button className='btn btn-info m-2' type="button" onClick={setToggle}>
                   Toggle

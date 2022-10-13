@@ -63,6 +63,7 @@ function UserForm() {
         <Header />
         <section>
             <div className="container">
+                <h2 className="bg-info m-auto my-5 text-center text-dark w-25">Form</h2>
                 <div className="col-md-6 offset-3">
                 <Form noValidate validated={validated} onSubmit={handleSubmit} onReset={handleFormReset}>
                     <div className="row">

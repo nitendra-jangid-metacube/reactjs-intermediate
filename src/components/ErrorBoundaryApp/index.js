@@ -9,7 +9,7 @@ function ErrorBoundaryApp() {
       <Header />
       <section>
         <div className="container">
-          <h3 className="text-center">This is an example of error boundaries</h3>
+          <h2 className="bg-info m-auto my-5 text-center text-dark w-50">Error Boundaries</h2>
           <p className="text-center">
             Click on the numbers to increase the counters.
             <br />
